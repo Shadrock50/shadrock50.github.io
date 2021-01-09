@@ -4,7 +4,7 @@ body {
     width: 50%;
     max-width: 800px;
     min-width: fit-content;
-    border: 3px solid grey;
+    border: 3px solid black;
     padding: 5px;
     
 }
@@ -13,36 +13,39 @@ header {
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: column;
-    background: lightgrey;
+    background: rgb(143, 245, 245);
     max-width: 800px;
     height: 80px;
     padding: 10px;
+    border-radius: 1em;
 }
 
 h1 {
-    background: lightgrey;
+    background: rgb(143, 245, 245);
     grid-row: 1/2;
-    font-size: 65px;
+    font-size: 55px;
     margin-top: auto;
     margin-bottom: auto;
+    text-align: center;
     
 }
 
 header img {
     grid-column: 2/3;
     grid-row: 1/3;
-    border-radius: 1em;
     box-shadow: 5px 5px 15px;
+    max-width: 200px;
     
 }
 
 #lastModified {
-    color: red;
+    color: black;
 }
 
 footer {
     text-align: center;
     max-width: 800px;;
-    background: lightgrey;
+    background: rgb(143, 245, 245);
     padding: 10px;
+    border-radius: 1em;
 }
