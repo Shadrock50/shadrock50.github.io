@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>littleweather.net Design</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="umbrella.png" alt="littleweather.net Logo">
+        <h1>littleweather.net Design Plan</h1>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="color-scheme.html">Color Scheme</a>
+        <a href="target-audience.html">Target Audience</a>
+        <a href="typography.html">Typography</a>
+        <a href="javascript:void(0);" class="icon" onclick="createDropdown()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div>
+        <h1>Site Purpose</h1>
+        <p>The site's purpose is to provide weather services to adventuring folk. It will provide an extensive weather service, provided by
+            Google API. Additionally, it will provide a forum for members to talk about their adventures and reminisce. Finally, it will provide
+            a repository of hiking trails and outdoor activities.
+        </p>
+        <h2>Web Address</h2>
+        <p>littleweather.net</p>
+    </div>
+
+
+
+
+    <script>
+        function createDropdown() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+</body>
+</html>

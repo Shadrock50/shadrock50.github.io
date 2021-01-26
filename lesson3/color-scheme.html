@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Color Scheme</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="umbrella.png" alt="littleweather.net Logo">
+        <h1>littleweather.net Design Plan</h1>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="color-scheme.html" class="active">Color Scheme</a>
+        <a href="target-audience.html">Target Audience</a>
+        <a href="typography.html">Typography</a>
+        <a href="javascript:void(0);" class="icon" onclick="createDropdown()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="color-scheme">
+        <h1>Color Scheme</h1>
+        <p>The color scheme for littleweather.net should be something calming that reminds people about weather and climate. I've created a color scheme that is light and airy and smooth. It can be found at <a href="https://coolors.co/095256-f7f0f0-8af3ff-18a999-bb9f06">coolors.co</a></p>
+        <p>The background should use #095256.</p>
+        <p>Window borders should use #18A99</p>
+        <p>Window backgrounds should use #8aF3FF</p>
+        <p>#bb9fo6 should be used sparingly. Maybe on the header.</p>
+    </div>
+
+
+
+
+    <script>
+        function createDropdown() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+</body>
+
+</html>
