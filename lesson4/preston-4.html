@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="description" content="Homepage for littleweather.net">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/script.js"></script>
+<title>littleweather.net</title>
+</head>
+
+<body onload="todayDate()">
+
+    <header class="header">
+        <img src="img/umbrella.png" alt="littleweather.net Logo">
+        <div class=headInfo>
+            <h1>littleweather.net</h1>
+            <p class="catchphrase">The best place for weather adventures!</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="topnav" id="myTopnav">
+            <li><a href="javascript:void(0);" class="icon" onclick="createDropdown()">
+                <i class="fa fa-bars"> Menu</i>
+            </a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="contentbox">Hero w/ weather summary</div>
+        <div class="contentbox forecast">5 Day Forecast</div>
+        <div class="contentbox">Article</div>
+        <div class="contentbox">Contact Information</div>
+    </main>
+
+    <footer>
+        <div class="footerInfo">
+            <p>&#169;Little Weather | Shad Christopherson</p>
+            <p id="footerDate"></p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
