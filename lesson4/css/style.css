@@ -93,7 +93,7 @@ body {
 
 
   ul {
-    list-style: none 0 0;
+    list-style: none;
     overflow: hidden;
     margin-top: 0;
     display: flex;
@@ -134,7 +134,6 @@ body {
   @media screen and (max-width: 600px) {
     .topnav a {display: none;}
     .topnav a.icon {
-      float: center;
       display: block;
       margin: auto;
     }
