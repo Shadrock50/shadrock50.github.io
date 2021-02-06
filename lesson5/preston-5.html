@@ -5,9 +5,9 @@
 <meta charset="utf-8">
 <meta name="description" content="Homepage for littleweather.net">
 <link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
-<link rel="stylesheet" media="screen and (max-width: 899px) and (min-width: 651px)" href="midscreen.css"
-<link rel="stylesheet" media="screen and (max-width: 650px)" href="smallscreen.css">
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="css/widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 899px) and (min-width: 651px)" href="css/midscreen.css">
+<link rel="stylesheet" media="screen and (max-width: 650px)" href="css/smallscreen.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 <script src="js/script.js"></script>
@@ -40,8 +40,19 @@
 
     <main>
         <h2>Preston, Idaho</h2>
-        <div class="hero">Hero w/ weather summary</div>
-        <div class="contentbox forecast">5 Day Forecast</div>
+        <div class="heroDiv">
+            <img src="img/idaho-map-hero.jpeg" alt="Hero Banner">
+            <section class="heroAddOn">
+                <h3>Weather Summary</h3>
+                <hr>
+                <p><b>Currently: </b><span id="weatherCurrent">Sunny</span></p>
+                <p><b>High: </b><span id="highTemp">76 &#176;f</span></p>
+                <p><b>Wind Chill: </b><span id="windChill">&#176;f</span></p>
+                <p><b>Humidity: </b><span id="humidity">69%</span></p>
+                <p><b>Wind Speed: </b><span id="windSpeed">5 mph &#176;f</span></p>
+            </section>
+        </div>
+        <div class="forecast">5 Day Forecast</div>
         <div class="contentbox">Article</div>
         <div class="contentbox">Contact Information</div>
     </main>

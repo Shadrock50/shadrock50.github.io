@@ -131,7 +131,43 @@ body {
     display: none;
   }
 
-@media screen and (max-width: 600px) {
+  .heroDiv {
+      position: relative;
+  }
+
+  .heroDiv img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 95%;
+      height: 225px;
+  }
+
+
+
+.heroAddOn {
+	position: absolute;
+    font-size: 10px;
+	top: 10px;
+	left: 25px;
+	background: #1d4ca8;
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+    color: white;
+    max-width: 100px;
+}
+
+.heroAddOn p {
+    font-style: bold;
+}
+
+.heroAddOn h3{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 650px) {
     .topnav a {display: none;}
     .topnav a.icon {
       display: block;
