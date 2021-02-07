@@ -21,6 +21,79 @@ body {
     width: 90%;
   }
 
+  .weatherSun {
+    width: 50px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  th {
+    background-color: #095256;
+    color: white;
+  }
+
+  .forecast {
+    text-align: center;
+  }
+
+  .articleImg{
+    max-width: 40%;
+    box-shadow: 0 0 30px #111;
+    float: right;
+  }
+  
+  .article {
+    padding: 20px;
+    border: 1px solid lightgrey;
+    background-color: lightblue;
+    text-align: center;
+    justify-content: left;
+    margin: auto;
+    margin-top: 1em;
+  }
+  
+  .article p h4 i{
+    text-align: left;
+    justify-content: left;
+  
+  }
+
+  .prestonMap {
+
+    max-width: 50%;
+    float: left;
+    padding: 70px 0;
+  
+  }
+  
+  .contactDiv {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: lightskyblue;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .contactInfo {
+    padding: 70px 0;
+    text-align: center;
+    display: block;
+  }
+  
+  .contactInfo p {
+    margin: 0px;
+  }
+  
+
   .contentbox {
     background-color: lightgrey;
     padding: 10px;
@@ -102,6 +175,25 @@ body {
     padding-bottom: 2px;
     padding-top: 2px;
     font-size: 20px;
+  }
+
+  #banner {
+    text-align: center;
+    background-color: rgb(231, 231, 2);
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+  }
+
+  .invisibleBanner {
+
+    display: none;
+  }
+
+  .displayedBanner {
+
+    display: block;
   }
 
 
