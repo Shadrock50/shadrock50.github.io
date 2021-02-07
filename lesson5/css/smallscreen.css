@@ -151,7 +151,7 @@ body {
 
 .heroAddOn {
 	position: absolute;
-    font-size: 10px;
+  font-size: 10px;
 	top: 10px;
 	left: 25px;
 	background: #1d4ca8;
@@ -163,9 +163,6 @@ body {
   max-width: 100px;
 }
 
-.heroAddOn p {
-    font-style: bold;
-}
 
 .heroAddOn h3{
     font-size: 12px;

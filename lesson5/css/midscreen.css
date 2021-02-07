@@ -169,7 +169,7 @@ body {
 
 .heroAddOn {
 	position: absolute;
-    font-size: 11px;
+  font-size: 11px;
 	top: 10px;
 	left: 25px;
 	background: #1d4ca8;
@@ -177,7 +177,7 @@ body {
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #111;
 	opacity: .8;
-    color: white;
+  color: white;
 }
 
 .heroAddOn h3{
