@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+article img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
