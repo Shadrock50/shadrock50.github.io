@@ -2,6 +2,7 @@ table {
     text-align: center;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
+    box-shadow: 10px 10px 10px #628ca6;
 }
 
 table thead {
@@ -35,14 +36,8 @@ tr:nth-child(even){
 .subTitle {
     background-color: #628ca6;
     color: white;
-    font-weight: bold;
 }
 
 thead tr, tfoot tr {
     background-color: #7fb9c2;
-}
-
-.maximum {
-    background-color: #628ca6;
-    color: white;
 }
