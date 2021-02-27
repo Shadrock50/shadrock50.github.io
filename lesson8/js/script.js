@@ -24,3 +24,7 @@ function createDropdown() {
         x.className = "displayedBanner";
     }
   }
+
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
