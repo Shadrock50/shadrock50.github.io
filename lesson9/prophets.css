@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+.cards {
+    box-shadow: -5px -5px 10px grey, 5px 5px 10px grey;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+section {
+    border: 2px solid darkcyan;
+    margin: 10px;  
+    border-collapse: collapse;
+    background-color: rgb(0, 185, 185);
+}
+
+h2, h1 {
+    color: rgb(1, 58, 58);
+}
+
+img{
+    max-width: 80%;
+}
+
+@media screen and (min-width: 550px) and (max-width: 900px){
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section {
+        max-width: 100%;
+    }
+
+    img{
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 901px){
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    section {
+        max-width: 100%;
+    }
+
+
+}
