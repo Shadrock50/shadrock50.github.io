@@ -52,7 +52,7 @@
                 <source srcset="img/mid-hero.jpeg" media="(min-width: 651px) and (max-width: 900px)">
                 <img src="img/small-hero.jpeg" alt="Clouds for optimized images.">
             </picture>
-            <section class="heroAddOn">
+            <section class="heroAddOn" on>
                 <h3>Weather Summary</h3>
                 <hr>
                 <p><b>Currently: </b><span id="weatherCurrent">Sunny</span></p>
@@ -126,6 +126,9 @@
             google: {families: ["Roboto"]}
         })
     </script>
+      <script>
+        setTimeout(windChill(), 2000);
+      </script>
 </body>
 
 </html>
