@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="description" content="Homepage for littleweather.net">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="css/widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 900px) and (min-width: 651px)" href="css/midscreen.css">
+<link rel="stylesheet" media="screen and (max-width: 650px)" href="css/smallscreen.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<script src="js/script.js"></script>
+<script src="js/townInfo.js"></script>
+<title>littleweather.net</title>
+</head>
+
+<body onload="todayDate(), displayBanner(), homePage()">
+    <p id="homeID">Home</p>
+
+
+    <header class="header">
+        <img src="img/umbrella.png" alt="littleweather.net Logo">
+        <div class=headInfo>
+            <h1>littleweather.net</h1>
+            <p class="catchphrase">The best place for weather adventures!</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="topnav" id="myTopnav">
+            <li><a href="javascript:void(0);" class="icon" onclick="createDropdown()">
+                <i> Menu</i>
+            </a></li>
+            <li><a href="../" class="active">Home</a></li>
+            <li><a href="../preston-10.html" >Preston</a></li>
+            <li><a href="../soda-springs.html">Soda Springs</a></li>
+            <li><a href="../fish-haven.html">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="heroDiv">
+            <picture>
+                <source srcset="img/big_hero.jpeg" media="(min-width: 900px)">
+                <source srcset="img/mid-hero.jpeg" media="(min-width: 651px) and (max-width: 900px)">
+                <img src="img/small-hero.jpeg" alt="Clouds for optimized images.">
+            </picture>
+        </div>
+
+        <div class="townDiv">
+            <div class="townInfo">
+                <div class="townText">
+                    <h2 id="town-1-title"></h2>
+                    <h3 id="town-1-motto"></h3>
+                    <p id="town-1-info-1"></p>
+                    <p id="town-1-info-2"></p>
+                    <p id="town-1-info-3"></p>
+                </div>
+                <img id="town-image-1">
+            </div>
+            <div class="townInfo">
+                <div class="townText-2">
+                    <h2 id="town-2-title"></h2>
+                    <h3 id="town-2-motto"></h3>
+                    <p id="town-2-info-1"></p>
+                    <p id="town-2-info-2"></p>
+                    <p id="town-2-info-3"></p>
+                </div>
+                <img id="town-image-2">
+            </div>
+            <div class="townInfo">
+                <div class="townText">
+                    <h2 id="town-3-title"></h2>
+                    <h3 id="town-3-motto"></h3>
+                    <p id="town-3-info-1"></p>
+                    <p id="town-3-info-2"></p>
+                    <p id="town-3-info-3"></p>
+                </div>
+                <img id="town-image-3">
+            </div>
+        </div>
+
+        <div class="article">
+            <img class="articleImg" src="img/field.jpg" alt="Camping in the Uintas">
+            <h4><b>The Beauty of Idaho</b></h4>
+            <i>by Shad Christopherson</i>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </p>
+        </div>
+        <div class="contactDiv">
+            <img class="prestonMap" src="img/preston-map.png" alt="Preston Map">
+            <div class="contactInfo">
+                <b>Little Weather</b>
+                <p>30 N 1st E</p>
+                <p>Preston, Id 83263</p>
+                <br>
+                <p>&#9742; 999.999.9999</p>
+                <p>&#128231; littleweather@lttlwthr.com</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footerInfo">
+            <p>&#169;Little Weather | Shad Christopherson</p>
+            <p>Weather provided by <a href="https://openweathermap.org">OpenWeatherMap.org</a></p>
+            <p id="footerDate"></p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {families: ["Roboto"]}
+        })
+    </script>
+</body>
+
+</html>
