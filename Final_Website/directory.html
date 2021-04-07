@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" media="screen and (max-width: 900px) and (min-width: 650px)" href="css/midscreen.css">
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="css/largescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 650px)" href="css/smallscreen.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+<title>Full Directory of Bridger Valley Companies</title>
+
+</head>
+
+<header>
+    <h1>Bridger Valley</h1>
+    <h2>Chamber of Commerce</h2>
+    <p class="tagLine">One Valley. One Vision. One Chamber</p>
+</header>
+
+<body>
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Home</a>
+        <a href="../city-info.html">Bridger Valley Info</a>
+        <a href="../join.html">Join Us!</a>
+        <a href="../directory.html" class="active">Directory</a>
+        <a href="../contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>    
+    
+    <div class="changeStyles" >
+        <h2>Member Companies</h2>
+        <img class="too-big-image-i-guess-its-supposed-to-be-50-pixels" src="../img/list.png" alt="Edit Styles" onclick="changeStyles()">
+    </div>
+
+    <div class="directories" id="changeStyles">
+
+    </div>
+
+</body>
+
+
+<footer>
+    <p>&#169; <span id="current-year"></span> | Lyman, Wyoming | Bridger Vally Chamber of Commerce</p>
+    <div id="lastModified">Pending...</div>
+</footer>
+<script src="js/scripts.js"></script>
+<script src="js/directoryapi.js"></script>
+</html>

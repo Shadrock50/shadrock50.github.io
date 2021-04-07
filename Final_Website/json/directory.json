@@ -1,0 +1,46 @@
+{
+    "company" : [
+        {
+            "name" : "Achieve Sports Medicine",
+            "phone" : "307-747-4628",
+            "address" : "Main Street, Lyman"
+
+        },
+        {
+            "name" : "Bridger Valley Pioneer",
+            "phone" : "307-787-3229",
+            "address" : "317 Bradshaw St. #2"
+
+        },
+        {
+            "name" : "Bess Masonry",
+            "phone" : "307-679-0586",
+            "address" : "39814 Business Loop, Urie"
+
+        },
+        {
+            "name" : "Sandi's Workshop",
+            "phone" : "307-747-3533",
+            "address" : "225 Alder St., Mt. View"
+
+        },
+        {
+            "name" : "Jane & Main",
+            "phone" : "307-787-3059",
+            "address" : "1066 S. Main St., Lyman"
+
+        },
+        {
+            "name" : "The Printed Word",
+            "phone" : "307-747-9673",
+            "address" : "120 Main Street, Lyman"
+
+        },
+        {
+            "name" : "Redi Services, LLC",
+            "phone" : "307-787-6333",
+            "address" : "225 W. Owen St., Lyman"
+
+        }
+    ]
+}

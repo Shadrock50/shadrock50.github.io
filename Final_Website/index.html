@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" media="screen and (max-width: 900px) and (min-width: 650px)" href="css/midscreen.css">
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="css/largescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 650px)" href="css/smallscreen.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+<title>Bridger Valley Chamber of Commerce</title>
+
+</head>
+
+<header>
+    <h1>Bridger Valley</h1>
+    <h2>Chamber of Commerce</h2>
+    <p class="tagLine">One Valley. One Vision. One Chamber</p>
+</header>
+
+<body onload="weather()">
+
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active">Home</a>
+        <a href="../city-info.html">Bridger Valley Info</a>
+        <a href="../join.html">Join Us!</a>
+        <a href="../directory.html">Directory</a>
+        <a href="../contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="weather">
+       <div class="currentWeather">
+           <h2>Today's Weather</h3>
+           <p>Current Temp: <span id="currentTemp"></span> &deg;F</p>
+           <p>Condition: <span id="condition"></span></p>
+           <p>Humidity: <span id="humidity"></span></p>
+       </div> 
+       <div class="weatherFore">
+           <h2 id="date-1"></h2>
+           <p id="temp-1"></p>
+           <p id="condition-1"></p>
+       </div>
+       <div class="weatherFore">
+            <h2 id="date-2"></h2>
+            <p id="temp-2"></p>
+            <p id="condition-2"></p>
+       </div>
+       <div class="weatherFore">
+            <h2 id="date-3"></h2>
+            <p id="temp-3"></p>
+            <p id="condition-3"></p>
+       </div>
+    </div>
+
+    <div class="show-off-images">
+        <div class="image-content">
+            <img src="img/heritageBarn.jpg" alt="Heritage Barn" class="show-image">
+            <p class="show-description">Come on down and have a party at the Heritage Barn!</p>
+        </div>
+        <div class="image-content">
+            <img src="img/eagle.jpg" alt="Eagle Statue" class="show-image">
+            <p class="show-description">Eagle at the Gateway Inn!</p>
+        </div>
+        <div class="image-content">
+            <img src="img/fort_bridger.jpg" alt="Fort Bridger" class="show-image">
+            <p class="show-description">Take a trip down to Historic Fort Bridger</p>
+        </div>
+    </div>
+    <div class="companies">
+        <h2>Upcoming Events</h2>
+        <div class="company-grid">
+            <div class="company-info">
+                <h3>4th of July Parade</h3>
+                <p class="company-tagline">Date: July 4th</p>
+                <p>Location: Main Street, Lyman</p>
+            </div>
+            <div class="company-info">
+                <h3>Pioneer Days</h3>
+                <p class="company-tagline">Date: July 24th</p>
+                <p>Location: Lyman Faitgrounds</p>
+            </div>
+            <div class="company-info">
+                <h3>Jim Bridger Days</h3>
+                <p class="company-tagline">Date: Third weekend in July!</p>
+                <p>Location: Fort Bridger</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="companies">
+        <h2>Up and Coming Companies!</h2>
+        <div class="company-grid">
+            <div class="company-info">
+                <h3>Achieve Sports Medicine</h3>
+                <p class="company-tagline">No Excuses, just results!</p>
+                <p>Location: Main Street, Lyman</p>
+                <p>Contact: 307-747-4628</p>
+            </div>
+            <div class="company-info">
+                <h3>Benedict's Market</h3>
+                <p><a href="https://benedictsmarket.com/community">Benedict's Community Page</a></p>
+                <p>Location: 850 WY-414, Fort Bridger</p>
+                <p>Contact: 307-782-3581</p>
+            </div>
+            <div class="company-info">
+                <h3>Cowboy Inn Cafe</h3>
+                <p class="company-tagline">If you don't eat here, we'll both starve!</p>
+                <p>Location: I-80 Exit 41</p>
+                <p>Contact: 307-786-2107</p>
+            </div>
+        </div>
+    </div>
+    <a class="call-link" href="join.html">
+    <div class="call-to-action">
+        <h1>JOIN US TODAY! Click Here</h1>
+    </div>
+    </a>
+    <div class="aboutUs">
+        <img src="img/dude.jpg" alt="Jim Bridger" class="about-img">
+        <div class="about-text">
+        <h2 class="about-us">ABOUT <span>US</span></h2>
+        <p class="main-about">The Bridger Valley Chamber of Commerce is organized to promote and encourage the economic development, growth and prosperity of Bridger Valley and Southwest Wyoming. </p>
+        </div>
+    </div>
+    <div class="contact-div">
+        <div class="contact-info">
+            <img src="img/office.jpg" alt="Office Background" class="transparent">
+            <div class="contact-specific-div">
+                <img src="img/phone.png" alt="Phone" class="icon">
+                <p class="underlined">307-787-6738</p>
+            </div>
+        </div>
+        <div class="contact-info-red">
+            <img src="img/break.jpg" alt="Office Background" class="transparent">
+            <div class="contact-specific-div">
+                <img src="img/email.png" alt="Email" class="icon">
+                <p class="underlined">bridgervalleychamber@gmail.com</p>
+            </div>
+        </div>
+        <a href="https://facebook.com">
+        <div class="contact-info-blue">
+            <img src="img/break-room.jpg" alt="Office Background" class="transparent">
+            <div class="contact-specific-div">
+                <img src="img/facebook.png" alt="Facebook" class="icon">
+                <p class="underlined">Find us on Facebook!</p>
+            </div>
+        </div>
+        </a>
+        <a href="https://youtube.com">
+            <div class="contact-info">
+                <img src="img/office-sample.jpg" alt="Office Background" class="transparent">
+                <div class="contact-specific-div">
+                    <img src="img/youtube.png" alt="Youtube" class="icon-youtube">
+                    <p class="underlined">Check out our Awesome Channel!</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+
+
+<footer>
+    <p>&#169; <span id="current-year"></span> | Lyman, Wyoming | Bridger Vally Chamber of Commerce</p>
+    <div id="lastModified">Pending...</div>
+</footer>
+<script src="js/scripts.js"></script>
+<script src="js/weatherapi.js"></script>
+</html>

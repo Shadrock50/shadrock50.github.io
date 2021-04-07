@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" media="screen and (max-width: 900px) and (min-width: 650px)" href="css/midscreen.css">
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="css/largescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 650px)" href="css/smallscreen.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+<title>Contact Info</title>
+
+</head>
+
+<header>
+    <h1>Bridger Valley</h1>
+    <h2>Chamber of Commerce</h2>
+    <p class="tagLine">One Valley. One Vision. One Chamber</p>
+</header>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Home</a>
+        <a href="../city-info.html">Bridger Valley Info</a>
+        <a href="../join.html">Join Us!</a>
+        <a href="../directory.html">Directory</a>
+        <a href="../contact.html" class="active">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <br>
+    <div class="chamberInfo">
+        <h2>About the Chamber</h2>
+        <p><b>The Bridger Valley Chamber of Commerce is organized to promote and encourage the economic development, growth and prosperity of Bridger Valley and Southwest Wyoming. To this end, the Chamber of Commerce seeks to do the following:</b></p>
+        <ul>
+            <li>Be a vital force in improving the econoomic strength of Bridger Valley</li>
+            <li>Encourage and support new businesses in the community.</li>
+            <li>Provide resources and education to support and promote business opportunities for members.</li>
+            <li>Persuade Bridger Valley residents to shop locally</li>
+            <li>Plan a year in advance with an annual review of a five-year plan.</li>
+            <li>Promote tourism in Bridger Valley</li>
+            <li>Sustain and invrease Chamber memberships</li>
+            <li>Retain Board member commitment.</li>
+            <li>To grow, prosper, enjoy life and have fun in Bridger Valley!</li>
+        </ul>
+        <p>If you are already a member, we look forward to sending you business and keeping the community updated on upcoming events. For any non-members, please contact us if you are interested in being a member of our Chamber and participating in our promotional events.​</p>
+    </div>
+    <br>
+    <div class="form">
+        <h3>Contact Us!</h3>
+        <form action="contact.html">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name." required><br><br>
+      
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name." required><br><br>
+
+          <label for="phone">Enter your phone number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="777-777-7777"><br><br>
+
+          <label for="comment">Add a Comment:</label>
+          <textarea id="comment" name="comment" rows="8" cols="50" placeholder="Add a comment here"></textarea>
+
+
+          <input type="submit" value="Submit Comment">
+        </form>
+      </div>
+      <br><br>
+      <div class="map">
+      <p class=".google-maps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23968.33101026343!2d-110.3162390983676!3d41.32971362322983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87505566cac66505%3A0xe309e91d03b73e2f!2sLyman%2C%20WY%2082937!5e0!3m2!1sen!2sus!4v1617818038965!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </p>
+      <div class="contactMap">
+      <h2>Contact Information:</h2>
+      <br>
+      <p>Phone: (307) 787-6738</p>
+      <P>Email: bridgervalleychamber@gmail.com</P>
+      </div>
+      </div>
+
+      <div class="chamberMembers">
+          <h2>Board of Directors:</h2>
+          <ul>
+              <li><b>President:</b> Eric Wyatt</li>
+              <li><b>Vice President:</b> Vacant</li>
+              <li><b>Secretary:</b> Myrtle Farrell</li>
+              <li><b>Treasurer:</b> Justin Ellis</li>
+              <li><b>Executive Director:</b> Charolette Black</li>
+          </ul>
+      </div>
+</body>
+
+
+<footer>
+    <p>&#169; <span id="current-year"></span> | Lyman, Wyoming | Bridger Vally Chamber of Commerce</p>
+    <div id="lastModified">Pending...</div>
+</footer>
+<script src="js/scripts.js"></script>
+</html>
